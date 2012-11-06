@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
     s.platform = ENV['PLATFORM']
     s.add_dependency('win32-process')
   else
-    STDERR.puts "Warning: no customization for #{ENV['PLATFORM']}"
+    STDERR.puts "Warning:\ no customization for #{ENV['PLATFORM']}"
   end
 
   if s.respond_to? :specification_version then
